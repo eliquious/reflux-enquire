@@ -1,0 +1,30 @@
+{
+  "name": "reflux-enquire",
+  "version": "1.0.1",
+  "description": "Reflux store which listens for updates to media queries using enquire.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "enquire",
+    "reflux",
+    "media queries",
+    "store"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliquious/reflux-enquire.git"
+  },
+  "author": "eliquious@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliquious/reflux-enquire/issues"
+  },
+  "homepage": "https://github.com/eliquious/reflux-enquire",
+  "dependencies": {
+    "enquire.js": "git://github.com/WickyNilliams/enquire.js.git",
+    "reflux": "^0.2.5"
+  }
+}
