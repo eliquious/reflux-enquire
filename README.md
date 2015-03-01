@@ -61,3 +61,28 @@ var Dashboard = React.createClass({
 });
 
 ```
+
+Another way... without mixins
+
+```javascript
+var React = require('react'),
+    RefluxEnquireStore = require('reflux-enquire');
+
+// Dashboard
+var Dashboard = React.createClass({
+
+  render: function(){
+    
+    // using built-in function isActive
+    if (RefluxEnquireStore.isActive('md')) {
+      // do something
+    } else {
+      // do something else
+    }
+
+    // more code here
+  }
+});
+
+```
+
